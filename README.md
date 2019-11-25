@@ -4,18 +4,56 @@
 # Install dependencies
 $ npm install
 
-# Run the app in development mode
+# Run the app in the development mode and open page localhost:8080
 $ npm run start
 
 # Build the app for production
 $ npm run build
 
-# Run linting
+# Run linter
 $ npm run eslint
 
 # Create commit
 $ npm run commit
 
-# Run test
+# Run tests
+$ npm run test
+
+# Deploy the project on gh-pages
 $ npm run test
  ```
+## Structure
+```
+├── dist
+│   ├── app.css
+│   ├── app.js
+│   └── index.html
+├── src                    
+│   ├── /scripts
+│   ├── /styles
+│   └── index.js
+├── .babelrc
+├── .eslintrc
+├── .gitignore 
+├── index.html
+├── jest.config.json
+├── package.json
+├── package-lock.json
+├── README.md
+├── webpack.common.js
+├── webpack.dev.js
+├── webpack.prod.js
+
+dist/
+This folder used for deployment
+
+src/
+Codebase of the application
+
+.babelrc, .eslintrc, jest.config.json
+Configurations and rules
+
+.package.json
+Project settings
+```  
+      

@@ -5,15 +5,22 @@
     "jest": true
   },
   "extends": [
-    "airbnb-base",
-    "plugin:jest/recommended",
     "eslint:recommended"
   ],
-  "plugins": ["jest"],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
   },
   "parser": "babel-eslint",
-  "rules": {}
+  "rules": {
+    "no-unused-vars": [
+      "warn"
+    ],
+    "no-case-declarations": [
+      "warn"
+    ],
+    "no-prototype-builtins": [
+      "warn"
+    ]
+  }
 }
