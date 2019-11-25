@@ -4,7 +4,7 @@
 # Install dependencies
 $ npm install
 
-# Run the app in the development mode and open page localhost:8080
+# Run the app in the development mode and open page
 $ npm run start
 
 # Build the app for production
