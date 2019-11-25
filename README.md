@@ -56,4 +56,5 @@ Configurations and rules
 .package.json
 Project settings
 ```  
-      
+
+[App on GitHub Pages](https://romanovaleksander.github.io/js-band-hw-task-4)
